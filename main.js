@@ -1,16 +1,13 @@
 
 
-/*let usario = parseInt(prompt("Ingrese un uruario: "))
+let nombreIngresado   = prompt("Ingresar nombre");
+let apellidoIngresado = prompt("Ingresar apellido");
 
-function solicitarNombre (){
-    for(let = i; i <= 3; i==){
-    let resultado = usuario * i; 
-    alert("El usuario ingresado es " + resultado + "Bienvenido " + usuario "!")
-    }break
+if((nombreIngresado !="") && (apellidoIngresado !="")){
+    alert("Nombre: "+nombreIngresado +"\nApellido: "+apellidoIngresado); 
+}else{
+    alert("Error: Ingresar nombre y apellido");
 }
-
-solicitarNombre();*/
-
 
 
 
@@ -24,4 +21,3 @@ while (precioProducto == precioIngresado){
     break
     }
 
-/*let usuario = parseInt(prompt("Ingrese un usuario: "))*/
